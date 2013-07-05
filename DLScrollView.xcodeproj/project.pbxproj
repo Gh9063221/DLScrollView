@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F3F19251783E154006FE239 /* home_default_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F3F19231783E154006FE239 /* home_default_bg.png */; };
+		0F3F19261783E154006FE239 /* home_default_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F3F19241783E154006FE239 /* home_default_bg@2x.png */; };
+		0F3F19361783E231006FE239 /* EGOCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F19291783E231006FE239 /* EGOCache.m */; };
+		0F3F19371783E231006FE239 /* README.mdown in Resources */ = {isa = PBXBuildFile; fileRef = 0F3F192A1783E231006FE239 /* README.mdown */; };
+		0F3F19381783E231006FE239 /* EGOImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F192D1783E231006FE239 /* EGOImageButton.m */; };
+		0F3F19391783E231006FE239 /* EGOImageLoadConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F19301783E231006FE239 /* EGOImageLoadConnection.m */; };
+		0F3F193A1783E231006FE239 /* EGOImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F19321783E231006FE239 /* EGOImageLoader.m */; };
+		0F3F193B1783E231006FE239 /* EGOImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F19351783E231006FE239 /* EGOImageView.m */; };
+		B508933E1782BA0D00EB8B3F /* bg1.png in Resources */ = {isa = PBXBuildFile; fileRef = B508933B1782BA0D00EB8B3F /* bg1.png */; };
+		B508933F1782BA0D00EB8B3F /* bg2.png in Resources */ = {isa = PBXBuildFile; fileRef = B508933C1782BA0D00EB8B3F /* bg2.png */; };
+		B50893401782BA0D00EB8B3F /* bg3.png in Resources */ = {isa = PBXBuildFile; fileRef = B508933D1782BA0D00EB8B3F /* bg3.png */; };
+		B50893431782BCE300EB8B3F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B50893421782BCE300EB8B3F /* RootViewController.m */; };
 		B5E456B517824F580045485B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E456B417824F580045485B /* UIKit.framework */; };
 		B5E456B717824F580045485B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E456B617824F580045485B /* Foundation.framework */; };
 		B5E456B917824F580045485B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E456B817824F580045485B /* CoreGraphics.framework */; };
@@ -16,9 +28,28 @@
 		B5E456C717824F580045485B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B5E456C617824F580045485B /* Default.png */; };
 		B5E456C917824F580045485B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5E456C817824F580045485B /* Default@2x.png */; };
 		B5E456CB17824F580045485B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5E456CA17824F580045485B /* Default-568h@2x.png */; };
+		B5E456D81782543A0045485B /* DLScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E456D71782543A0045485B /* DLScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F3F19231783E154006FE239 /* home_default_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_default_bg.png; sourceTree = "<group>"; };
+		0F3F19241783E154006FE239 /* home_default_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_default_bg@2x.png"; sourceTree = "<group>"; };
+		0F3F19281783E231006FE239 /* EGOCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOCache.h; sourceTree = "<group>"; };
+		0F3F19291783E231006FE239 /* EGOCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOCache.m; sourceTree = "<group>"; };
+		0F3F192A1783E231006FE239 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.mdown; sourceTree = "<group>"; };
+		0F3F192C1783E231006FE239 /* EGOImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageButton.h; sourceTree = "<group>"; };
+		0F3F192D1783E231006FE239 /* EGOImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageButton.m; sourceTree = "<group>"; };
+		0F3F192F1783E231006FE239 /* EGOImageLoadConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageLoadConnection.h; sourceTree = "<group>"; };
+		0F3F19301783E231006FE239 /* EGOImageLoadConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageLoadConnection.m; sourceTree = "<group>"; };
+		0F3F19311783E231006FE239 /* EGOImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageLoader.h; sourceTree = "<group>"; };
+		0F3F19321783E231006FE239 /* EGOImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageLoader.m; sourceTree = "<group>"; };
+		0F3F19341783E231006FE239 /* EGOImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageView.h; sourceTree = "<group>"; };
+		0F3F19351783E231006FE239 /* EGOImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageView.m; sourceTree = "<group>"; };
+		B508933B1782BA0D00EB8B3F /* bg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg1.png; path = image/bg1.png; sourceTree = "<group>"; };
+		B508933C1782BA0D00EB8B3F /* bg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg2.png; path = image/bg2.png; sourceTree = "<group>"; };
+		B508933D1782BA0D00EB8B3F /* bg3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg3.png; path = image/bg3.png; sourceTree = "<group>"; };
+		B50893411782BCE300EB8B3F /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		B50893421782BCE300EB8B3F /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		B5E456B117824F580045485B /* DLScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E456B417824F580045485B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B5E456B617824F580045485B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +63,9 @@
 		B5E456C617824F580045485B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B5E456C817824F580045485B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B5E456CA17824F580045485B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B5E456D61782543A0045485B /* DLScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLScrollView.h; sourceTree = "<group>"; };
+		B5E456D71782543A0045485B /* DLScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLScrollView.m; sourceTree = "<group>"; };
+		B5E456E0178280BF0045485B /* define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = define.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,9 +82,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F3F19271783E231006FE239 /* EGOCache */ = {
+			isa = PBXGroup;
+			children = (
+				0F3F19281783E231006FE239 /* EGOCache.h */,
+				0F3F19291783E231006FE239 /* EGOCache.m */,
+				0F3F192A1783E231006FE239 /* README.mdown */,
+			);
+			path = EGOCache;
+			sourceTree = "<group>";
+		};
+		0F3F192B1783E231006FE239 /* EGOImageButton */ = {
+			isa = PBXGroup;
+			children = (
+				0F3F192C1783E231006FE239 /* EGOImageButton.h */,
+				0F3F192D1783E231006FE239 /* EGOImageButton.m */,
+			);
+			path = EGOImageButton;
+			sourceTree = "<group>";
+		};
+		0F3F192E1783E231006FE239 /* EGOImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				0F3F192F1783E231006FE239 /* EGOImageLoadConnection.h */,
+				0F3F19301783E231006FE239 /* EGOImageLoadConnection.m */,
+				0F3F19311783E231006FE239 /* EGOImageLoader.h */,
+				0F3F19321783E231006FE239 /* EGOImageLoader.m */,
+			);
+			path = EGOImageLoader;
+			sourceTree = "<group>";
+		};
+		0F3F19331783E231006FE239 /* EGOImageView */ = {
+			isa = PBXGroup;
+			children = (
+				0F3F19341783E231006FE239 /* EGOImageView.h */,
+				0F3F19351783E231006FE239 /* EGOImageView.m */,
+			);
+			path = EGOImageView;
+			sourceTree = "<group>";
+		};
 		B5E456A817824F580045485B = {
 			isa = PBXGroup;
 			children = (
+				0F3F19271783E231006FE239 /* EGOCache */,
+				0F3F192B1783E231006FE239 /* EGOImageButton */,
+				0F3F192E1783E231006FE239 /* EGOImageLoader */,
+				0F3F19331783E231006FE239 /* EGOImageView */,
+				B5E456E0178280BF0045485B /* define.h */,
+				B5E456D917827F7E0045485B /* image */,
+				B5E456D61782543A0045485B /* DLScrollView.h */,
+				B5E456D71782543A0045485B /* DLScrollView.m */,
 				B5E456BA17824F580045485B /* DLScrollView */,
 				B5E456B317824F580045485B /* Frameworks */,
 				B5E456B217824F580045485B /* Products */,
@@ -80,6 +161,8 @@
 			children = (
 				B5E456C317824F580045485B /* DLAppDelegate.h */,
 				B5E456C417824F580045485B /* DLAppDelegate.m */,
+				B50893411782BCE300EB8B3F /* RootViewController.h */,
+				B50893421782BCE300EB8B3F /* RootViewController.m */,
 				B5E456BB17824F580045485B /* Supporting Files */,
 			);
 			path = DLScrollView;
@@ -97,6 +180,18 @@
 				B5E456CA17824F580045485B /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5E456D917827F7E0045485B /* image */ = {
+			isa = PBXGroup;
+			children = (
+				0F3F19231783E154006FE239 /* home_default_bg.png */,
+				0F3F19241783E154006FE239 /* home_default_bg@2x.png */,
+				B508933B1782BA0D00EB8B3F /* bg1.png */,
+				B508933C1782BA0D00EB8B3F /* bg2.png */,
+				B508933D1782BA0D00EB8B3F /* bg3.png */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +250,12 @@
 				B5E456C717824F580045485B /* Default.png in Resources */,
 				B5E456C917824F580045485B /* Default@2x.png in Resources */,
 				B5E456CB17824F580045485B /* Default-568h@2x.png in Resources */,
+				B508933E1782BA0D00EB8B3F /* bg1.png in Resources */,
+				B508933F1782BA0D00EB8B3F /* bg2.png in Resources */,
+				B50893401782BA0D00EB8B3F /* bg3.png in Resources */,
+				0F3F19251783E154006FE239 /* home_default_bg.png in Resources */,
+				0F3F19261783E154006FE239 /* home_default_bg@2x.png in Resources */,
+				0F3F19371783E231006FE239 /* README.mdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +268,13 @@
 			files = (
 				B5E456C117824F580045485B /* main.m in Sources */,
 				B5E456C517824F580045485B /* DLAppDelegate.m in Sources */,
+				B5E456D81782543A0045485B /* DLScrollView.m in Sources */,
+				B50893431782BCE300EB8B3F /* RootViewController.m in Sources */,
+				0F3F19361783E231006FE239 /* EGOCache.m in Sources */,
+				0F3F19381783E231006FE239 /* EGOImageButton.m in Sources */,
+				0F3F19391783E231006FE239 /* EGOImageLoadConnection.m in Sources */,
+				0F3F193A1783E231006FE239 /* EGOImageLoader.m in Sources */,
+				0F3F193B1783E231006FE239 /* EGOImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +387,7 @@
 				B5E456D017824F580045485B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
